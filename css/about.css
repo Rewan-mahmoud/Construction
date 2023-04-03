@@ -1,0 +1,72 @@
+
+.icon-drawing 
+{
+    width: 90px;
+    height: 90px;
+    background-color: #ffbc13;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.AboutContent h3 
+{
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.AboutContent p{
+    color: #777;
+}
+.icon-drawing
+{
+    display: inline-grid;
+    align-items: center;
+}
+.icon-drawing i {
+    font-size: 31px;
+}
+
+
+
+.progressBarSection {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+
+}
+.professional {
+    background-image: url(../assest/about/bg-section-4.jpg);
+    background-attachment: fixed;
+    background-position: 50% -62px;
+    height: 70vh;
+
+}
+
+.professional h3 {
+    font-size: 35px;
+    color: #fff !important;
+    font-family: 'Montserrat', serif !important;
+    margin-bottom: 30px;
+}
+.professional span {
+    color: #fff;
+    line-height: normal;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.progress-bar {
+    border-radius: 0;
+    background-color: #ffbc13 !important ;
+}
+.progress {
+    background-color: #333;
+    border-radius: 0;
+    margin-top: 7px;
+    height: 0.7rem !important;
+   
+}

@@ -1,0 +1,118 @@
+.menu-item{
+    border: 0;
+    background-color: #f8f8f8;
+    padding: 13px  28px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+.menu-item a {
+    color: #4b4b4b;
+  
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.current_page_item {
+    background-color: #ffbc13;
+    color: #fff ;
+    position: relative;
+}
+.current_page_item a {
+    color: #fff;
+}
+.menu-item a:hover {
+     color: #ffbc13;
+     transition: all ease .238s;
+}
+.current_page_item ::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    transform: translate3d(0,-50%,0);
+    
+}
+
+.rightSideContent h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    font-size:24.612px; 
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+.line-1{
+    height: 3px;
+    width: 60px;
+    background-color: #ffbc13;
+    margin-left: 0;
+    margin-top: -2.5px;
+}
+    
+.line-2 {
+    height: 1px;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-left: 0;
+    margin-top:-1.5px;
+}
+ 
+.rightSideContent p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.875;
+
+}
+.carousel-control-prev-icon  ,
+ .carousel-control-next-icon{
+    background-color: #ffbc13;
+}
+.carousel-indicators [data-bs-target] {
+    margin-right: 0px !important;
+     margin-left: 10px !important;
+}
+.carousel-indicators {
+    bottom: -55px !important;
+
+
+}
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent !important ;
+    border: 1px solid #ffbc13 !important;
+    border-radius: 0 !important;
+    margin: 0 5px;
+}
+
+.checkedList li {
+    position: relative;
+    padding: 0 0 0 25px;
+    margin-bottom: 8px;
+   color:rgb(119, 119, 119) ; 
+}
+
+.checkedList li::before
+{
+    color: #ffbc13;
+    content: "\f046";
+    font-family: "FontAwesome";
+    line-height: normal;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.JOB-QUICKLY {
+    padding: 35px 0;
+}

@@ -1,0 +1,99 @@
+.contactPage {
+    background: #f8f8f8;
+    border-style: solid #f8f8f8;
+    padding: 45px 0;
+    margin-bottom: 70px;
+}
+
+.contactPage h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.contactPage a {
+    color: #ffbc13;
+    text-decoration: none;
+    font-size: 12.992px;
+}
+
+.contactPage span {
+    color: #4b4b4b;
+}
+
+/* .mapLayer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7) ;
+  
+} */
+
+.info
+{
+    padding-bottom: 70px;
+}
+.ContactInfo {
+    padding-left: 0;
+}
+.info h4 {
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 19.992px;
+}
+.info ul li {
+    position: relative;
+    padding: 0 0 0 50px;
+    border: 0;
+    margin-bottom: 20px;
+}
+.info p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+.info p , 
+.ContactInfo {
+    color: rgb(119, 119, 119);
+
+}
+.ContactAddress{
+    position: relative;
+}
+.info ul li::before{
+    text-align: center;
+    font-family: "FontAwesome";
+    font-size: 0.9rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #f8f8f8;
+}
+.info ul li.ContactAddress:before {
+    content: "\f015";
+}
+.info ul li.phone:before {
+    content: "\f095";
+}
+.info ul li.email:before {
+    content: "\f0e0";
+}
+.form input ,
+textarea {
+    color: #777;
+    border: 1px solid #eaeaea !important;
+    padding: 12px 19px;
+    line-height: inherit;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: auto;
+    transition: border ease .238s;
+}

@@ -1,0 +1,51 @@
+.services{
+    background: #f8f8f8;
+    border-style: solid  #f8f8f8;
+    padding: 45px 0;
+    margin-bottom: 70px;
+}
+.services h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    font-size:  30px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.services a {
+    color: #ffbc13;
+    text-decoration: none;
+    font-size: 12.992px;
+}
+.services span{
+    color: #4b4b4b;
+}
+.secondRow {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.servicesColumn h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    color: #4b4b4b;
+    line-height: 1.5;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease .238s;
+
+}
+
+.servicesColumn h6:hover {
+    color: #ffbc13;
+}
+
+.servicesColumn p {
+    color: #777;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    
+}

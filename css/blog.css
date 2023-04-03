@@ -1,0 +1,187 @@
+.blogSection h3 {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 24.99px;
+    padding: 20px 0;
+}
+.details
+{
+    padding: 7px 12px;
+    background-color: #f8f8f8;
+    color: #777;
+   font-size: 12.992px;
+   line-height: 24.36px;
+    margin-bottom: 22px;
+}
+
+.details a {
+    color: #9e9e9e;
+    text-decoration: none; 
+
+}
+.innerBefore::after {
+  
+    content: "/";
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 5px;
+}
+
+ .details a:hover {
+    color: #ffbc13;
+    outline: 0;
+    transition: all ease .238s;
+}
+.blogSection img {
+    width: 70%;
+}
+.blogSection p {
+    color: #777;
+
+}
+.shareIcons i{
+    font-size: 12px;
+    color: #777;
+}
+.shareIcons i {
+    text-decoration: none;
+    position: relative;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 12px 10px;
+    cursor: pointer;
+    transition: all ease .238s;
+}
+.shareIcons i:hover {
+   color: #fff;
+    background-color: #ffbc13;
+
+  
+}
+.page-item{
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffbc13 !important;
+    color: #fff !important;
+    border-radius: 0;
+    transition: all ease .238s;
+    border: #ffbc13 ;
+    margin-right: 10px;
+    font-size: 16px !important;
+    line-height: 40px;
+    cursor: pointer;
+   
+ 
+}
+.page-item i {
+    font-size: 10px;
+}   
+.opacityBtn {
+    opacity: 0.7;
+}
+.Paginationn {
+    margin-bottom: 70px;
+}
+.search-form input{
+    color: #777;
+    border: 1px solid #eaeaea !important;
+    padding: 11px 19px;
+    width: 100%;
+    line-height: inherit;
+    background-color: transparent;
+    margin-bottom: 30px;
+    border-radius: 0;
+    height: auto;
+    text-shadow: none;
+}
+.search-form i {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    color: #ffbc13;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.categories {
+    margin-top: 50px;
+}
+.titleBlog {
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    line-height: 1.5;
+    margin-top: 54px;
+
+}
+.categories ul {
+    padding: 0;
+}
+.categories li  {
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px 0;
+    
+}
+.categories a {
+    color: #979797;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.categories a:hover{
+color: #ffbc13;
+transition: all ease .238s;
+
+}
+.NewsContent h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #4b4b4b;
+    line-height: 1.5;
+    font-size: 0.9rem;
+
+}
+.NewsContent span {
+font-size: 14px;
+color: rgb(151, 151, 151);
+}
+ 
+.NewsContent {
+    padding:  18px 0;
+}
+.borderDiv {
+    border-bottom: 1px solid #eaeaea;
+
+}
+.tagcloud a {
+    position: relative;
+    color: #777;
+    z-index: 1;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+    float: left;
+    padding: 6px 6px;
+    font-size: 15px;
+
+
+}
+
+.tagcloud a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #f8f8f8;
+    transition: all ease .238s;
+
+}
+.tagcloud a:hover {
+    color: white;
+}
+.tagcloud a:hover::after {
+    background-color: #ffbc13;
+    border-color: #ffbc13;
+ 
+
+}
